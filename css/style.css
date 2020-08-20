@@ -1,0 +1,311 @@
+*{margin: 0;padding: 0;}
+.fl{float: left;}
+.fr{float: right;}
+.new{float: left;margin-left: 2%;}
+.clr{clear: both;}
+.wrapper{}
+header{
+     height:70px;
+    border-bottom: 2px solid lime;
+}
+header h1{
+    padding: 1% 0;
+    margin-left: 10%;
+    color:lime;
+    font-size: 40px;
+    float: left;
+    font-weight: bold;
+}
+nav{
+    width:60%;
+    float:right;
+    margin-right:10%;
+    margin-top:20px;
+}
+nav li{
+    display: inline;
+    padding: 10px 0.5%;
+    font-size:22px;
+}
+nav li a{
+    color:lime;
+    text-decoration: none;
+    padding: 25px 2.5%;
+}
+nav li a:hover{
+    background:lime;
+    color: white;
+}
+section{
+    height: 700px;
+    width: 100%;
+    background: url(../img/adult-baggage-blur-258378.jpg) no-repeat;background-size:100% 700px;
+}
+.travel{
+    height: 180px;
+    background: lime;
+}
+.travel h1{
+    color: white;
+    padding-top:20px;
+    text-align:center;
+    font-size: 40px;
+}
+.travel_sub {
+    color: white;
+    margin:10px 10%;
+    text-align: center;
+    font-size: 18px;
+    
+}
+.wrapper1{background: silver;}
+.offer{
+    height: 600px;
+    margin: 0 15%;
+}
+.offer h1{
+    font-size: 40px;
+    text-align: center;
+    padding-top:50px;
+    font-weight: normal;
+}
+.offer p{
+    font-size: 18px;
+    text-align: center;
+    padding-top:10px;
+}
+.offer_sub1{
+    height: 350px;
+    width:32%;
+    background: white;
+    margin-top: 80px;
+    text-align: center;
+    border-bottom: 2px solid lime;
+}
+.offer_sub1 h1{
+    font-size: 22px;
+    padding-top: 10px;
+}
+.offer_sub1 p{
+    font-size: 16px;
+    padding:10%;
+}
+.plan_button{
+    height: 30px;
+    width:40%;
+    font-size:15px;
+    padding:5px;
+    background: lime;
+    color: white;
+}
+.offer_sub1 i{
+    font-size: 30px;
+    padding: 5%;
+    margin-top: 30px;
+}
+.wrapper2{
+    margin: 0 10%;
+}
+article h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80px;
+}
+ #p1{
+    font-size: 20px;
+    text-align: center;
+     margin-bottom: 50px;
+     color: grey;
+}
+.about_img{
+    width:30%;
+    height: 300px;
+    border: 2px double silver;
+}
+.about_p{
+    font-size: 17px;
+    padding:20px;
+    width: 65%;
+    height: 300px;
+    color: gray;
+}
+.packages h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.packages_sub{
+    height: 220px;
+    width: 23.5%;
+    background: grey;
+    margin-top: 20px;
+}
+.packages_sub h4{
+    color: white;
+    font-size: 25px;
+    background: lime;
+    padding: 2%;
+    text-align: center;
+}
+.slogan{
+    height: 240px;
+    margin: 80px 0;
+    background: black;
+}
+.slogan h1{
+    color: white;
+    padding: 80px;
+    text-align: center;
+}
+.price h1{
+    text-align: center;
+    font-size: 30px;
+}
+.wrapper3{
+    margin: 50px 15%;
+}
+table{
+    width: 23.5%;
+}
+table:hover{
+    width: 24.5%;
+    box-shadow: 0 0 5px grey;
+}
+#b{
+   background: silver;  
+}
+#c{
+   background: lime;  
+}
+#d a{
+   background: lime;  
+}
+table tr td h2{
+    font-size: 30px;
+    padding:5%;
+    text-align: center; 
+}
+table tr td h1{
+    font-size: 50px;
+    padding:5%;
+    text-align: center;
+}
+table tr td{
+    font-size: 16px;
+    padding:5%;
+    text-align: center;
+    border:0px;
+}
+
+table tr td a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+table tr td a:hover{
+    color: white;
+    background: lime;
+    
+}
+.testimonial{
+    height: 220px;
+    background: lime;
+    margin: 80px 0;
+}
+#img{
+    border-radius: 50px;
+    float: left;
+    height: 105px;
+    width: 105px;
+    border: 1px solid silver;
+    margin:3% 5% 0 15%;
+}
+#img img{
+    border-radius: 50px;
+    margin: 1%;
+}
+#test{
+    float: right; 
+    margin: 5% 15% 0 0;
+    font-size: 18px;
+    color: white;
+
+}
+.wrapper4{
+    margin: 0 10%;
+}
+.gallery{height: 1000px;}
+.gallery h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.gallery_sub{
+    height: 240px;
+    width: 32%;
+    background: grey;
+    margin-top: 20px;
+}
+.footer{height: 500px;background: grey;}
+.footer-head{
+    margin: 0 15%;
+}
+.footer-head h1{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 80px;
+    color: white; 
+}
+.footer-head p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.footer_sub{
+    height: 300px;
+    width: 32%;
+    margin-top: 80px;
+}
+.follow-main{
+     background: lime;
+}
+.follow{
+    font-size: 50px;
+    text-align: center;
+    background: lime;
+    padding: 3%;
+}
+.copy{
+    text-align: center;
+    font-size: 18px;
+    background: grey;
+    color: white;
+}
+.follow i{
+    
+    color: white;
+}
+.footer_sub h4{
+    font-size: 25px;
+    
+}
+.text{
+    width: 70%;
+    font-size: 20px;
+    height: 30px;
+}
+.area{
+    width: 70%;
+    font-size: 20px;
+    height: 100px
+}
+#button{
+    height: 30px;
+    width: 30%;
+    font-size: 20px;
+    background: blue;
+    color: white;
+    
+}
